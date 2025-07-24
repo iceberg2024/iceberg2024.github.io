@@ -1,0 +1,53 @@
+# 基础配置
+baseURL: "https://zhangzib123.github.io/"
+title: "张子彪的技术博客"
+theme: "stack"
+  #paginate: 10
+pagination:
+  pagerSize: 10  # 替换原来的 paginate: 10
+# Stack主题核心设置
+params:
+  # 基础信息
+  description: "AI架构 | 系统设计 | 技术思考"
+  
+  # 首页布局
+  home:
+    layout: "profile"  # 个人简介风格首页
+  
+  # 文章设置
+  article:
+    showToc: true      # 显示目录
+    math: true         # 启用数学公式
+  
+  # 社交链接（根据实际情况修改）
+  social:
+    - name: GitHub
+      icon: "github"
+      url: "https://github.com/zhangzib123"
+    - name: Twitter
+      icon: "twitter"
+      url: "https://twitter.com/yourname"
+
+# 菜单配置
+menu:
+  main:
+    - identifier: "posts"
+      name: "文章"
+      url: "/posts/"
+      weight: 1
+    - identifier: "tags"
+      name: "标签"
+      url: "/tags/"
+      weight: 2
+
+# 模块系统（Hugo新特性）
+module:
+  mounts:
+    - source: "assets"
+      target: "assets"
+    - source: "content"
+      target: "content"
+    - source: "static"
+      target: "static"
+  imports:
+    - path: "stack"

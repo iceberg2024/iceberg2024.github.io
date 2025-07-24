@@ -1,0 +1,43 @@
+Watching for changes in /home/zzsn/blog/{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in /home/zzsn/blog/config.yaml, /home/zzsn/blog/themes/stack/config.yaml
+Start building sites … 
+hugo v0.148.1-98ba786f2f5dca0866f47ab79f394370bcb77d2f+extended linux/amd64 BuildDate=2025-07-11T12:56:21Z VendorInfo=gohugoio
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │  8 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │  0 
+ Processed images │  1 
+ Aliases          │  3 
+ Cleaned          │  0 
+
+Built in 47 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2025-07-24 06:28:36.858 +0000
+Source changed /a.md
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Total in 9 ms
+
+Change detected, rebuilding site (#2).
+2025-07-24 06:29:17.358 +0000
+Data changed /a.md
+ERROR Error: external resource 'Vibrant' is not found
+ERROR Rebuild failed: failed to load data: "/home/zzsn/blog/data/a.md:1:1": unmarshal of format "" is not supported
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Total in 4 ms
+
+Change detected, rebuilding site (#3).
+2025-07-24 06:29:52.858 +0000
+Data changed /a.md
+Data changed /a.md
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Total in 8 ms
