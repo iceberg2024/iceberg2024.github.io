@@ -41,3 +41,16 @@ Data changed /a.md
 Data changed /a.md
 Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
 Total in 8 ms
+adding created directory to watchlist /home/zzsn/blog/content/posts
+
+Change detected, rebuilding site (#4).
+2025-07-24 06:52:34.858 +0000
+Source changed /posts/first-post.md
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Total in 7 ms
+
+Change detected, rebuilding site (#5).
+2025-07-24 06:54:06.858 +0000
+Source changed /posts/first-post.md
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Total in 2 ms
