@@ -1,11 +1,12 @@
 # 基础配置
-baseURL: "https://zhangzib123.github.io/"
+baseURL: "https://iceberg2024.github.io/public"
 title: "张子彪的技术博客"
 theme: "stack"
   #paginate: 10
 pagination:
   pagerSize: 10  # 替换原来的 paginate: 10
 # Stack主题核心设置
+publishDir: "docs"
 params:
   # 基础信息
   description: "AI架构 | 系统设计 | 技术思考"

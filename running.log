@@ -54,3 +54,50 @@ Change detected, rebuilding site (#5).
 Source changed /posts/first-post.md
 Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
 Total in 2 ms
+
+Change of config file detected, rebuilding site (#6).
+2025-07-24 07:19:12.358 +0000
+Web Server is available at http://localhost:1313//iceberg2024.github.io/ (bind address 0.0.0.0)
+Rebuilt in 102 ms
+
+Change of config file detected, rebuilding site (#7).
+2025-07-24 07:21:52.858 +0000
+Web Server is available at http://localhost:1313/public/ (bind address 0.0.0.0)
+Rebuilt in 114 ms
+
+Change of config file detected, rebuilding site (#8).
+2025-07-24 07:34:26.858 +0000
+Web Server is available at http://localhost:1313/public/ (bind address 0.0.0.0)
+Rebuilt in 133 ms
+
+Change of config file detected, rebuilding site (#9).
+2025-07-24 07:34:34.358 +0000
+Web Server is available at http://localhost:1313/public/ (bind address 0.0.0.0)
+Rebuilt in 122 ms
+
+Change of config file detected, rebuilding site (#10).
+2025-07-24 07:38:07.358 +0000
+Web Server is available at http://localhost:1313/public/ (bind address 0.0.0.0)
+Rebuilt in 129 ms
+Watching for changes in /home/zzsn/blog/{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in /home/zzsn/blog/config.yaml, /home/zzsn/blog/themes/stack/config.yaml
+Start building sites … 
+hugo v0.148.1-98ba786f2f5dca0866f47ab79f394370bcb77d2f+extended linux/amd64 BuildDate=2025-07-11T12:56:21Z VendorInfo=gohugoio
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 11 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │  0 
+ Processed images │  1 
+ Aliases          │  4 
+ Cleaned          │  0 
+
+Built in 44 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/public/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
