@@ -14,6 +14,16 @@
         <guid>https://zhangzib123.github.io/p/abc/</guid>
         <description></description>
         </item>
+        <item>
+        <title>文ddd</title>
+        <link>https://zhangzib123.github.io/p/%E6%96%87ddd/</link>
+        <pubDate>Tue, 29 Jul 2025 17:23:06 +0800</pubDate>
+        
+        <guid>https://zhangzib123.github.io/p/%E6%96%87ddd/</guid>
+        <description>&lt;h2 id=&#34;这是一个自定义文章&#34;&gt;这是一个自定义文章
+&lt;/h2&gt;&lt;p&gt;文章内容hello cccddd&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>
