@@ -29,6 +29,6 @@ jobs:
           with:
               PERSONAL_TOKEN: ${{ secrets.TOKEN }}
               EXTERNAL_REPOSITORY: iceberg2024/iceberg2024.github.io
-              PUBLISH_BRANCH: master
+              PUBLISH_BRANCH: publish
               PUBLISH_DIR: ./public
               commit_message: auto deploy
