@@ -8,6 +8,7 @@ on:
 
 jobs:
   deploy:
+    environment: BLOG_TOKEN
     runs-on: ubuntu-latest
     steps:
         - name: Checkout
@@ -27,7 +28,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              PERSONAL_TOKEN: ${{ secrets.TOKEN }}
+              PERSONAL_TOKEN: ${{ secrets.BLOG_TOKEN }}
               EXTERNAL_REPOSITORY: iceberg2024/iceberg2024.github.io
               PUBLISH_BRANCH: publish
               PUBLISH_DIR: ./public
