@@ -27,7 +27,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              PERSONAL_TOKEN: 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
+              PERSONAL_TOKEN: ${{ secrets.TOKEN }}
               EXTERNAL_REPOSITORY: iceberg2024/iceberg2024.github.io
               PUBLISH_BRANCH: master
               PUBLISH_DIR: ./public
